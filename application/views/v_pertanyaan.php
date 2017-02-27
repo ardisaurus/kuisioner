@@ -99,6 +99,7 @@
             <?php 	}
             	} ?>
 </div>
+<?php if ($publish==0) { ?>
 <button class="btn btn-success pull-right" data-toggle="modal" data-target="#tambah">
     <i class="glyphicon glyphicon-plus"></i> Tambah
 </button>                     
@@ -127,6 +128,7 @@
          </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+<?php } ?>
 <?php if ($datapertanyaan) { ?>
     <div class="clearfix text-center">
         <ul class="pagination pagination-md no-margin">
